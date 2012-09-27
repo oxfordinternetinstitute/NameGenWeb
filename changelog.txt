@@ -1,0 +1,18 @@
+v2.1
+	- Introduced sigma.js/gephi toolkit based visualiser.
+	- Updated to v3.2.0 of Facebook PHP API
+	- Fixed node labels so they are now names rather than Facebook IDs.
+	- Speed optimisations for smaller networks.
+	- Fixed issue with page scrolling.
+	- Added the ability to include ego in network file output.
+	- Added the ability to anonymise networks.
+	- Fixed compatibility with Safari 5.1.4+.
+	- Fixed illegal characters in XML file output.
+	- Fixed mimetype handling.
+	- Fixed an issue when two profiles have the same user name.
+	- Fixed scrollbar issue in some browsers.
+	- Fixed sporadic resource limit failure.
+	- Many other minor improvements.
+
+v2.0
+	- Initial release with new codebase using updated API.
