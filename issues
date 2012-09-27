@@ -1,0 +1,18 @@
+TO FIX
+---------------------------------------------------------------------------------
+
+v2.0.1
+ - Stop ie6 clients from using the app. Too many browser rendering bugs make it impractical to support.
+ - Firefox throws security certificate error. "The certificate is not trusted because no issuer 
+   chain was provided.(Error code: sec_error_unknown_issuer)".
+ - Buttons and gradients don't work in ie8 and possibly other browsers.
+ - (URGENT) Form data not being submitted in ie8 (possibly other ie browsers). Renders app inoperable.
+ - Horizontal scroll bar visible in Phase 2 iframe in firefox (padding takes content width over 100%?)
+ - Clicking labels of form fields sometimes selects text
+ - Horizontal scrollbar visible in all pages.
+ - Phase 2 progressbar broken in firefox
+ - D3 performance is, in general, awful EXCEPT on chrome with relatively high end hardware. Disabling
+   AA has little/no effect in firefox for example, which crawls. Needs to be a popup window with some 
+   pretty severe disclaimers at least. Will attempt graphml implementation to compare.
+ - NodeXL doesnt like our GraphML, but Gephi does. Why?
+ - Other file formats...do they work? Probably not. NOT TESTED.
