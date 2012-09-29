@@ -1,4 +1,5 @@
 config/
 output/
 
-.ds*
+.DS*
+._*
